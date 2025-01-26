@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Aboreto } from "next/font/google";
+import { Geo } from "next/font/google";
 import "./globals.css";
 
-const aboretoFont = Aboreto({
+const geoFont = Geo({
   subsets: ["latin"],
-  variable: "--font-aboreto",
   weight: ["400"],
 });
 
@@ -20,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${aboretoFont.variable} antialiased`}>{children}</body>
+      <body className={`${geoFont.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
