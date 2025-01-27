@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import {Noto_Sans} from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const globalFont = Noto_Sans({
   subsets: ["latin"],
-  weight: ["400","500","600"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -21,6 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${globalFont.className} antialiased`}>
         {children}
+        <nav>
+          <Link href="/"></Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Projects</Link>
+          <Link href="/contact">Testimonial</Link>
+        </nav>
       </body>
     </html>
   );
