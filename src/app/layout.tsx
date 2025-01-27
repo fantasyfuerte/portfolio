@@ -4,7 +4,7 @@ import "./globals.css";
 
 const globalFont = Noto_Sans({
   subsets: ["latin"],
-  weight: ["500","600"],
+  weight: ["400","500","600"],
 });
 
 export const metadata: Metadata = {

@@ -12,7 +12,7 @@ export default {
         primary: "#2b2823",
         secondary: "#8fa691",
         middleColor: "#d4ceaa",
-        basicBackground: "#f9fadc",
+        basicBackground: "#fffdf5",
         cta: "#cc3917",
       },
     },
