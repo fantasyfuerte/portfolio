@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+import NavBar from "@/components/navbar";
 
 const globalFont = Noto_Sans({
   subsets: ["latin"],
@@ -22,12 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${globalFont.className} antialiased`}>
         {children}
-        <nav>
-          <Link href="/"></Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Projects</Link>
-          <Link href="/contact">Testimonial</Link>
-        </nav>
+        <NavBar/>
       </body>
     </html>
   );
