@@ -5,7 +5,7 @@ import NavBar from "@/components/navbar";
 
 const globalFont = Noto_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600","700","800"],
 });
 
 export const metadata: Metadata = {
