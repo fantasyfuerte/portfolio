@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Geo } from "next/font/google";
+import {Noto_Sans} from "next/font/google";
 import "./globals.css";
 
-const geoFont = Geo({
+const globalFont = Noto_Sans({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["500","600"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geoFont.className} antialiased`}>
+      <body className={`${globalFont.className} antialiased`}>
         {children}
       </body>
     </html>
