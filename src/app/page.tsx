@@ -18,6 +18,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center -mt-8">
         <Image
+          priority
           alt="homepage-photo"
           src="/avatar.png"
           width={250}
