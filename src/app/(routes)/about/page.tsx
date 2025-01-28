@@ -1,6 +1,7 @@
 import TransitionPage from "@/components/transition-page";
 import Image from "next/image";
 import { tools } from "../../../../data";
+import ToolItem from "@/components/tool-item";
 
 function AboutPage() {
   return (
@@ -24,15 +25,7 @@ function AboutPage() {
             </h3>
             <div className="grid grid-cols-4 gap-2 p-2 md:px-64 xl:px-96">
               {tools.frontend.map((tool) => (
-                <div key={tool.name} className="border-2 border-red-950 h-20">
-                  <img
-                    src={tool.icon}
-                    alt={tool.name}
-                    width={50}
-                    height={50}
-                    className=""
-                  />
-                </div>
+                <ToolItem key={tool.name} tool={tool} />
               ))}
             </div>
           </article>
