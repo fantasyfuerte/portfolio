@@ -32,7 +32,7 @@ export default function Home() {
           <button className=" bg-cta rounded-2xl px-4 py-2 text-basicBackground font-bold">
             Contact Me
           </button>
-          <button className="border-2 border-primary/80 rounded-2xl px-3 py-1 text-primary/80 font-semibold">
+          <button className="border-2 border-primary/80 rounded-2xl px-3 py-1 text-primary/80 font-semibold active:text-primary active:border-primary">
             See my projects
           </button>
         </div>
