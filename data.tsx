@@ -32,7 +32,7 @@ export const tools = {
     },
     {
       name: "Vite",
-      icon: "/icons/vite.svg",
+      icon: "/icons/vitejs.svg",
     },
     {
       name: "CSS",
