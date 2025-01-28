@@ -1,7 +1,12 @@
+import TransitionPage from "@/components/transition-page";
+
 function ProjectsPage() {
   return (
-    <div>From Projects page</div>
-  )
+    <>
+      <TransitionPage />
+      <div>From Projects page</div>
+    </>
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;

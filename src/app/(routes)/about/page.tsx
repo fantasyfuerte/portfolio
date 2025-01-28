@@ -1,7 +1,12 @@
+import TransitionPage from "@/components/transition-page";
+
 function AboutPage() {
   return (
-    <div>From About page</div>
-  )
+    <>
+      <TransitionPage />
+      <div>From About page</div>
+    </>
+  );
 }
 
-export default AboutPage
+export default AboutPage;
