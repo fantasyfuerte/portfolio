@@ -8,15 +8,8 @@ function AboutPage() {
     <>
       <TransitionPage />
       <main className="pt-5 pb-24">
-        <Image
-          className="mx-auto"
-          alt="about-photo"
-          src="/about-avatar.png"
-          width={200}
-          height={200}
-        />
         <section className="text-primary">
-          <h3 className="text-2xl text-center py-1 font-bold opacity-80">
+          <h3 className="text-3xl text-center py-3 font-bold opacity-80">
             Tools & Skills
           </h3>
           <article>
@@ -35,6 +28,16 @@ function AboutPage() {
             </h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-3 md:px-64 xl:px-96">
               {tools.backend.map((tool) => (
+                <ToolItem key={tool.name} tool={tool} />
+              ))}
+            </div>
+          </article>
+          <article>
+            <h3 className="text-xl text-center py-1 font-bold opacity-80">
+              Languages:
+            </h3>
+            <div className="grid grid-cols-4 gap-2 py-2 px-3 md:px-64 xl:px-96">
+              {tools.laguages.map((tool) => (
                 <ToolItem key={tool.name} tool={tool} />
               ))}
             </div>
@@ -60,6 +63,13 @@ function AboutPage() {
             </div>
           </article>
         </section>
+        <Image
+          className="mx-auto"
+          alt="about-photo"
+          src="/about-avatar.png"
+          width={200}
+          height={200}
+        />
       </main>
     </>
   );
