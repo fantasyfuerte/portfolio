@@ -7,13 +7,16 @@ interface Props {
 
 function ToolItem({ tool }: Props) {
   return (
-    <div key={tool.name} className="border-2 border-red-950 h-20">
+    <div
+      key={tool.name}
+      className="h-20 flex flex-col items-center justify-center p-2" 
+    >
       <img
         src={tool.icon}
         alt={tool.name}
         width={50}
         height={50}
-        className=""
+        className="w-full h-full object-contain"
       />
     </div>
   );
