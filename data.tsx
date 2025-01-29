@@ -71,7 +71,7 @@ export const tools = {
     {
       name: "Prisma",
       icon: "/icons/prisma.svg",
-    }
+    },
   ],
   laguages: [
     {
@@ -90,7 +90,7 @@ export const tools = {
   mobile: [
     {
       name: "React Native",
-      icon: "/icons/react-native.svg",
+      icon: "/icons/reactnative.svg",
     },
     {
       name: "Expo",
