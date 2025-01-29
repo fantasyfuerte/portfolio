@@ -68,6 +68,10 @@ export const tools = {
       name: "PostgreSQL",
       icon: "/icons/postgresql.svg",
     },
+    {
+      name: "Prisma",
+      icon: "/icons/prisma.svg",
+    }
   ],
   laguages: [
     {

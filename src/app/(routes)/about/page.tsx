@@ -39,6 +39,7 @@ function AboutPage() {
               ))}
             </div>
           </article>
+          
         </section>
       </main>
     </>
