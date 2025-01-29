@@ -29,6 +29,16 @@ function AboutPage() {
               ))}
             </div>
           </article>
+          <article>
+            <h3 className="text-xl text-center py-1 font-bold opacity-80">
+              Backend:
+            </h3>
+            <div className="grid grid-cols-4 gap-2 py-2 px-3 md:px-64 xl:px-96">
+              {tools.backend.map((tool) => (
+                <ToolItem key={tool.name} tool={tool} />
+              ))}
+            </div>
+          </article>
         </section>
       </main>
     </>

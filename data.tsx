@@ -58,7 +58,7 @@ export const tools = {
     },
     {
       name: "Express",
-      icon: "/icons/express.svg",
+      icon: "/icons/expressjs.svg",
     },
     {
       name: "Sqlite",
