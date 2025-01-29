@@ -58,7 +58,7 @@ export const tools = {
     },
     {
       name: "Express",
-      icon: "/icons/express.svg",
+      icon: "/icons/expressjs.svg",
     },
     {
       name: "Sqlite",
@@ -67,6 +67,10 @@ export const tools = {
     {
       name: "PostgreSQL",
       icon: "/icons/postgresql.svg",
+    },
+    {
+      name: "Prisma",
+      icon: "/icons/prisma.svg",
     },
   ],
   laguages: [
@@ -86,7 +90,7 @@ export const tools = {
   mobile: [
     {
       name: "React Native",
-      icon: "/icons/react-native.svg",
+      icon: "/icons/reactnative.svg",
     },
     {
       name: "Expo",
