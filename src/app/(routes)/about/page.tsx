@@ -9,7 +9,7 @@ function AboutPage() {
       <TransitionPage />
       <main className="pt-5 pb-24 text-primary bg-basicBackground">
         <section>
-          <article className="mb-5">
+          <article className="mb-5" id="contact">
             <h3 className="text-2xl text-center py-2 mb-2 font-bold opacity-80">
               Contact Me
             </h3>
