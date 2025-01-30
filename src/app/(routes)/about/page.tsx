@@ -64,7 +64,22 @@ function AboutPage() {
             width={200}
             height={200}
           />
-          <p className="text-center p-2 opacity-80">I am a Fullstack Developer with a specialized focus on frontend development. I have a strong passion for creating intuitive, user-friendly interfaces that enhance the user experience. With a solid foundation in both frontend and backend technologies, I have the versatility to tackle diverse project requirements and deliver seamless, high-quality solutions. My goal is to continuously learn and innovate in order to build efficient and scalable applications that make a difference.</p>
+          <p className="text-center p-4 opacity-80 font-semibold">
+            My name is{" "}
+            <span className="font-bold text-cta">Leandro Fuerte</span>. I am a{" "}
+            <span className="font-bold text-cta">Fullstack Developer</span> with
+            a specialized focus on{" "}
+            <span className="font-bold text-cta">frontend development</span>.
+            <br></br> I have a strong passion for creating{" "}
+            <span className="font-bold text-cta">
+              intuitive and user-friendly interfaces{" "}
+            </span>
+            that enhance the{" "}
+            <span className="font-bold text-cta">user experience</span>. My goal
+            is to continuously learn and innovate in order to build{" "}
+            <span className="font-bold text-cta">efficient and scalable</span>{" "}
+            applications that make a difference.
+          </p>
         </section>
       </main>
     </>
