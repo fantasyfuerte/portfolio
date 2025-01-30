@@ -115,18 +115,18 @@ export const tools = {
 
 export const socialLinks = [
   {
-    name:"Instagram",
+    name: "Instagram",
     href: "https://www.instagram.com/fuerte.ts",
-    icon: "/social-icons/instagram.svg"
+    icon: "/social-icons/instagram.svg",
   },
   {
-    name:"Github",
+    name: "Github",
     href: "https://www.github.com/fantasyfuerte",
-    icon: "/social-icons/github.svg"
+    icon: "/social-icons/github.svg",
   },
   {
-    name:"Gmail",
-    href: "https://www.gmail.com",
-    icon: "/social-icons/gmail.svg"
+    name: "Gmail",
+    href: "mailto:leandrofuerte75@gmail.com?subject=Hello%20I%20came%20from%20your%20portfolio%20website",
+    icon: "/social-icons/gmail.svg",
   },
-]
+];
