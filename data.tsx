@@ -112,3 +112,21 @@ export const tools = {
     },
   ],
 };
+
+export const socialLinks = [
+  {
+    name:"Instagram",
+    href: "www.instagram.com/fuerte.ts",
+    icon: "/social-icons/instagram.svg"
+  },
+  {
+    name:"Github",
+    href: "www.github.com/fantasyfuerte",
+    icon: "/social-icons/github.svg"
+  },
+  {
+    name:"Gmail",
+    href: "www.gmail.com",
+    icon: "/social-icons/gmail.svg"
+  },
+]
