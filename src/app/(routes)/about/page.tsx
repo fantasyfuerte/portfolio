@@ -7,7 +7,7 @@ function AboutPage() {
   return (
     <>
       <TransitionPage />
-      <main className="pt-5 pb-24 text-primary">
+      <main className="pt-5 pb-24 text-primary bg-basicBackground">
         <section>
           <h3 className="text-3xl text-center py-3 font-bold opacity-80">
             Tools & Skills
