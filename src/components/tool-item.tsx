@@ -16,7 +16,7 @@ function ToolItem({ tool }: Props) {
         alt={tool.name}
         width={50}
         height={50}
-        className="w-full h-full object-contain"
+        className="w-full h-full object-contain drop-shadow-custom"
       />
     </div>
   );
