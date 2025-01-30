@@ -1,6 +1,6 @@
 import TransitionPage from "@/components/transition-page";
 import Image from "next/image";
-import { tools } from "../../../../data";
+import { socialLinks, tools } from "../../../../data";
 import ToolItem from "@/components/tool-item";
 
 function AboutPage() {
@@ -9,6 +9,30 @@ function AboutPage() {
       <TransitionPage />
       <main className="pt-5 pb-24 text-primary bg-basicBackground">
         <section>
+          <article className="mb-5">
+            <h3 className="text-2xl text-center py-2 mb-2 font-bold opacity-80">
+              Contact Me
+            </h3>
+            <div className="flex gap-4 flex-wrap justify-center">
+              {socialLinks.map((socialLink) => (
+                <a
+                  key={socialLink.name}
+                  href={socialLink.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="basis-[40%]"
+                >
+                  <img
+                    alt={socialLink.name}
+                    src={socialLink.icon}
+                    width={50}
+                    height={50}
+                    className="mx-auto"
+                  />
+                </a>
+              ))}
+            </div>
+          </article>
           <h3 className="text-2xl text-center py-3 font-bold opacity-80">
             Tools & Skills
           </h3>
@@ -81,12 +105,6 @@ function AboutPage() {
               <span className="font-bold text-cta">efficient and scalable</span>{" "}
               applications that make a difference.
             </p>
-          </article>
-          <article>
-            <h3 className="text-2xl text-center py-2 font-bold opacity-80">
-              Contact Me
-            </h3>
-            
           </article>
         </section>
       </main>
