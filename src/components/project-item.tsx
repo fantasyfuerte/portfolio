@@ -7,7 +7,7 @@ interface Props {
   description: string;
   image: string;
   repo: string;
-  demo: string;
+  demo?: string;
 }
 
 function ProjectItem({ name, description, image, repo, demo }: Props) {
@@ -30,13 +30,15 @@ function ProjectItem({ name, description, image, repo, demo }: Props) {
           <img src="/icons/github.svg" alt="github" width={25} height={25} />
           <p className="font-semibold">Repo</p>
         </Link>
-        <Link
-          href={demo}
-          className="flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
-        >
-          <GrDeploy size={22} className="rotate-6" />
-          <p className="font-semibold">Demo</p>
-        </Link>
+        {demo && (
+          <Link
+            href={demo}
+            className="flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
+          >
+            <GrDeploy size={22} className="rotate-6" />
+            <p className="font-semibold">Demo</p>
+          </Link>
+        )}
       </div>
     </article>
   );
