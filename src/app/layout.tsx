@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${globalFont.className} antialiased`}>
+      <body className={`${globalFont.className} antialiased select-none`}>
         {children}
         <NavBar/>
       </body>
