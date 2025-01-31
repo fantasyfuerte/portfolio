@@ -7,7 +7,7 @@ function ProjectsPage() {
     <>
       <TransitionPage />
       <main className="bg-basicBackground min-h-screen">
-        <div>
+        <section>
           {projects.map((project) => (
             <ProjectItem
               name={project.name}
@@ -18,7 +18,7 @@ function ProjectsPage() {
               key={project.name}
             />
           ))}
-        </div>
+        </section>
       </main>
     </>
   );
