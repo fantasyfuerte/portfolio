@@ -10,7 +10,7 @@ export const projects = [
     name: "DO-IT-PROJECT",
     description:
       "DO-IT-NOW is a web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
-    image: "/images/projects/do-it-project.png",
+    image: "/projects/do-it-project.png",
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
   },
@@ -18,7 +18,7 @@ export const projects = [
     name: "Pocket Ledger",
     description:
       "Pocket Ledger is a finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions. Pocket Ledger simplifies financial management. 💸📱",
-    image: "/images/projects/pocket-ledger.png",
+    image: "/projects/pocket-ledger.png",
     repo: "https://github.com/fantasyfuerte/pocket-ledger",
     demo: "https://pocket-ledger.vercel.app/",
   },
