@@ -6,8 +6,8 @@ function ProjectsPage() {
   return (
     <>
       <TransitionPage />
-      <main className="bg-basicBackground min-h-screen">
-        <section>
+      <main className="bg-basicBackground min-h-screen pb-20">
+        <section className="flex flex-col gap-4">
           {projects.map((project) => (
             <ProjectItem
               name={project.name}
