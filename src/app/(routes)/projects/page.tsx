@@ -7,7 +7,7 @@ function ProjectsPage() {
     <>
       <TransitionPage />
       <main className="bg-basicBackground min-h-screen pb-20">
-        <section className="flex flex-col gap-4">
+        <section className="flex flex-col gap-4 md:grid md:grid-cols-3">
           {projects.map((project) => (
             <ProjectItem
               name={project.name}
