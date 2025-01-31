@@ -18,7 +18,7 @@ export const projects = [
     name: "Pocket Ledger",
     description:
       "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
-    image: "/projects/do-it-project.png",
+    image: "/projects/pocket-ledger.png",
     repo: "https://github.com/fantasyfuerte/pocket-ledger",
     demo: "https://pocket-ledger.vercel.app/",
   },
