@@ -12,7 +12,7 @@ interface Props {
 
 function ProjectItem({ name, description, image, repo, demo }: Props) {
   return (
-    <article className="bg-secondary/80 rounded-xl m-4 p-4 text-primary h-fit">
+    <article className="bg-secondary/80 rounded-xl mx-4 p-4 text-primary h-fit">
       <Image
         src={image}
         alt={name}
