@@ -1,5 +1,6 @@
 import TransitionPage from "@/components/transition-page";
 import { projects } from "../../../../data";
+import ProjectItem from "@/components/project-item";
 
 function ProjectsPage() {
   return (
@@ -8,19 +9,14 @@ function ProjectsPage() {
       <main className="bg-basicBackground min-h-screen">
         <div>
           {projects.map((project) => (
-            <div
+            <ProjectItem
+              name={project.name}
+              description={project.description}
+              image={project.image}
+              repo={project.repo}
+              demo={project.demo}
               key={project.name}
-              className="flex flex-col gap-4 p-4 object-contain"
-            >
-              <img
-                src={project.image}
-                alt={project.name}
-                width={250}
-                height={250}
-                className=""
-              />
-              <h3>{project.name}</h3>
-            </div>
+            />
           ))}
         </div>
       </main>
