@@ -15,10 +15,10 @@ export default function Home() {
       <main className="pt-6 bg-basicBackground h-screen">
         <div className="text-primary">
           <h3 className={`text-lg text-center -ml-4`}>Welcome To</h3>
-          <h3 className="text-lg text-center py-2">
+          <h1 className="text-lg text-center py-2">
             <span className={`${brandFont.className} text-6xl`}>Fuerte</span>
             &apos;s Showcase
-          </h3>
+          </h1>
         </div>
         <div className="flex flex-col items-center -mt-8">
           <Image
