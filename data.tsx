@@ -30,7 +30,7 @@ export const navbarLinks = [
   { name: "Projects", href: "/projects", icon: <PiBookFill size={28} /> },
   {
     name: "Testimonial",
-    href: "/testimonial",
+    href: "/testimonials",
     icon: <PiChatsFill size={28} />,
   },
 ];
