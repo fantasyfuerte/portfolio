@@ -39,9 +39,9 @@ export default function Home() {
             >
               Contact Me
             </Link>
-            <button className="border-2 border-primary/80 rounded-2xl px-3 py-1 text-primary/80 font-semibold active:text-primary active:border-primary">
+            <Link href="/projects" className="border-2 border-primary/80 rounded-2xl px-3 py-1 text-primary/80 font-semibold active:text-primary active:border-primary">
               See my projects
-            </button>
+            </Link>
           </div>
         </div>
       </main>
