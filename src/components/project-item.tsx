@@ -22,7 +22,7 @@ function ProjectItem({ name, description, image, repo, demo }: Props) {
       />
       <h3 className="text-xl font-bold">{name}</h3>
       <p className="text-sm opacity-80 font-medium">{description}</p>
-      <div className="pt-2 flex gap-2 mt-auto">
+      <div className="pt-4  flex gap-2 mt-auto">
         <Link
           href={repo}
           className="flex gap-2 items-center bg-basicBackground px-2 py-1 rounded-xl"
