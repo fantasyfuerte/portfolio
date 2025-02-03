@@ -2,7 +2,10 @@ import { socialLinks } from "../../data";
 
 function ContactMe() {
   return (
-    <article className="bg-secondary/60 m-5 p-4 rounded-2xl" id="contact">
+    <article
+      className="bg-middleColor/60 m-5 p-4 pb-6 rounded-2xl"
+      id="contact"
+    >
       <h3 className="text-2xl text-center pb-2 mb-2 font-bold opacity-80">
         Contact Me
       </h3>
