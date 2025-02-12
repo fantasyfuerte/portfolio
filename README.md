@@ -4,9 +4,9 @@ Welcome to my portfolio repository! This space showcases my skills, projects, an
 
 ## About Me 👨‍💻
 
-I'm a dedicated full-stack web developer and designer with a passion for creating seamless user experiences. This portfolio highlights my journey and achievements.
+I'm a dedicated full-stack web developer and designer with a passion for creating seamless user experiences.
 
-## Technologies Used For This Portfolio 🛠️
+## Technologies Used 🛠️
 
 - Next.js
 - Tailwind CSS
