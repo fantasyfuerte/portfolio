@@ -28,7 +28,7 @@ function ProjectItem({
       }`}
     >
       <div className="basis-6/12 flex-grow px-2 md:pl-5 md:pr-10 mb-7 ">
-        <h5 className="text-2xl min-w-max md:text-5xl text-primary/90">
+        <h5 className="text-2xl min-w-max md:text-4xl text-primary/90">
           {name}: <br></br>
           <strong className="text-primary">{subtitle}</strong>
         </h5>
@@ -39,7 +39,7 @@ function ProjectItem({
           <Link
             href={repo}
             target="_blank"
-            className="flex gap-2 items-center bg-basicBackground px-2 py-1 rounded-xl"
+            className="flex gap-2 items-center shadow bg-white px-2 py-1 rounded-xl"
           >
             <img src="/icons/github.svg" alt="github" width={25} height={25} />
             <p className="font-semibold">Repo</p>
@@ -48,7 +48,7 @@ function ProjectItem({
             <Link
               href={demo}
               target="_blank"
-              className="flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
+              className="shadow flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
             >
               <GrDeploy size={22} className="rotate-6" />
               <p className="font-semibold">Demo</p>
