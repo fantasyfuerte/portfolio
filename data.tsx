@@ -23,7 +23,16 @@ export const projects = [
     image: "/projects/do-it-project.png",
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
-  }
+  },
+  {
+    name: "Typing Test",
+    subtitle: "Are you typing fast?",
+    decription:
+      "Users are challenged to type a series of randomly generated words within a 30-second timeframe, with real-time feedback on their accuracy and words-per-minute speed. The core functionality—timer, dynamic text generation, and performance tracking—is achieved through vanilla JS event listeners, DOM manipulation, and interval timers, showcasing how powerful and versatile pure JavaScript can be without relying on frameworks.",
+    image: "/projects/typing-test.png",
+    repo: "https://github.com/fantasyfuerte/typing-test",
+    demo: "https://snazzy-mooncake-434a4b.netlify.app/",
+  },
 ];
 
 export const navbarLinks = [
@@ -150,5 +159,4 @@ export const socialLinks = [
     href: "https://www.github.com/fantasyfuerte",
     icon: "/social-icons/github.svg",
   },
-  
 ];
