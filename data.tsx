@@ -8,6 +8,7 @@ import {
 export const projects = [
   {
     name: "DO-IT-PROJECT",
+    subtitle:"Accomplishing goals",
     description:
       "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
     image: "/projects/do-it-project.png",
@@ -16,6 +17,7 @@ export const projects = [
   },
   {
     name: "Pocket Ledger",
+    subtitle:"Your Finance Freedom",
     description:
       "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
     image: "/projects/pocket-ledger.png",
