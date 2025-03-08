@@ -35,6 +35,26 @@ function ProjectItem({
         <p className="text-md font-semibold mt-8 text-pretty first-letter:ml-2 text-primary/80">
           {description}
         </p>
+        <div className="pt-6 flex gap-2 ">
+          <Link
+            href={repo}
+            target="_blank"
+            className="flex gap-2 items-center bg-basicBackground px-2 py-1 rounded-xl"
+          >
+            <img src="/icons/github.svg" alt="github" width={25} height={25} />
+            <p className="font-semibold">Repo</p>
+          </Link>
+          {demo && (
+            <Link
+              href={demo}
+              target="_blank"
+              className="flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
+            >
+              <GrDeploy size={22} className="rotate-6" />
+              <p className="font-semibold">Demo</p>
+            </Link>
+          )}
+        </div>
       </div>
       <Link
         href={demo ? demo : repo}
