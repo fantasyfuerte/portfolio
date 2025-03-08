@@ -27,8 +27,8 @@ export const projects = [
   {
     name: "Typing Test",
     subtitle: "Are you typing fast?",
-    decription:
-      "Users are challenged to type a series of randomly generated words within a 30-second timeframe, with real-time feedback on their accuracy and words-per-minute speed. The core functionality—timer, dynamic text generation, and performance tracking—is achieved through vanilla JS event listeners, DOM manipulation, and interval timers, showcasing how powerful and versatile pure JavaScript can be without relying on frameworks.",
+    description:
+      "Users type random words in 30 seconds, receiving real-time feedback on accuracy and speed. This is built with vanilla JavaScript, using event listeners, DOM manipulation, and interval timers, demonstrating its power without frameworks.",
     image: "/projects/typing-test.png",
     repo: "https://github.com/fantasyfuerte/typing-test",
     demo: "https://snazzy-mooncake-434a4b.netlify.app/",
