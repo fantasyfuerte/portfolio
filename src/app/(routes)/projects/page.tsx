@@ -13,7 +13,7 @@ function ProjectsPage() {
         <section className="">
           {projects.map((project,index) => (
             <ProjectItem
-              bg={index % 2 === 0}
+              bg={index % 2 !== 0}
               name={project.name}
               subtitle={project.subtitle}
               description={project.description}

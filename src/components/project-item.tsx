@@ -23,7 +23,7 @@ function ProjectItem({
 }: Props) {
   return (
     <article
-      className={`flex max-h-max flex-wrap items-center my-16 py-8 px-2 md:px-8 ${
+      className={`flex max-h-max flex-wrap items-center my-10 py-8 px-2 md:px-8 ${
         bg && "bg-middleColor"
       }`}
     >
