@@ -10,10 +10,12 @@ function ProjectsPage() {
         <h3 className="text-2xl font-bold text-primary text-center py-4">
           Projects
         </h3>
-        <section className="flex flex-col gap-4 md:grid md:grid-cols-3">
-          {projects.map((project) => (
+        <section className="">
+          {projects.map((project,index) => (
             <ProjectItem
+              bg={index % 2 !== 0}
               name={project.name}
+              subtitle={project.subtitle}
               description={project.description}
               image={project.image}
               repo={project.repo}

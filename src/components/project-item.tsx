@@ -4,42 +4,71 @@ import { GrDeploy } from "react-icons/gr";
 
 interface Props {
   name: string;
+  subtitle: string;
   description: string;
   image: string;
   repo: string;
   demo?: string;
+  bg: boolean;
 }
 
-function ProjectItem({ name, description, image, repo, demo }: Props) {
+function ProjectItem({
+  name,
+  subtitle,
+  description,
+  image,
+  repo,
+  demo,
+  bg,
+}: Props) {
   return (
-    <article className="bg-gradient-to-tr from-secondary/50 to-middleColor/50 rounded-xl mx-4 p-4 text-primary h-fit">
-      <Image
-        src={image}
-        alt={name}
-        className="w-full rounded-xl mb-2"
-        width={300}
-        height={300}
-      />
-      <h3 className="text-xl font-bold">{name}</h3>
-      <p className="text-sm opacity-80 font-medium">{description}</p>
-      <div className="pt-4  flex gap-2 mt-auto">
-        <Link
-          href={repo}
-          className="flex gap-2 items-center bg-basicBackground px-2 py-1 rounded-xl"
-        >
-          <img src="/icons/github.svg" alt="github" width={25} height={25} />
-          <p className="font-semibold">Repo</p>
-        </Link>
-        {demo && (
+    <article
+      className={`flex max-h-max flex-wrap items-center my-10 py-8 px-2 md:px-8 ${
+        bg && "bg-middleColor"
+      }`}
+    >
+      <div className="basis-6/12 flex-grow px-2 md:pl-5 md:pr-10 mb-7 ">
+        <h5 className="text-2xl min-w-max md:text-4xl text-primary/90">
+          {name}: <br></br>
+          <strong className="text-primary">{subtitle}</strong>
+        </h5>
+        <p className="text-md font-semibold mt-8 text-pretty first-letter:ml-2 text-primary/80">
+          {description}
+        </p>
+        <div className="pt-6 flex gap-2 ">
           <Link
-            href={demo}
-            className="flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
+            href={repo}
+            target="_blank"
+            className="flex gap-2 items-center shadow bg-white px-2 py-1 rounded-xl"
           >
-            <GrDeploy size={22} className="rotate-6" />
-            <p className="font-semibold">Demo</p>
+            <img src="/icons/github.svg" alt="github" width={25} height={25} />
+            <p className="font-semibold">Repo</p>
           </Link>
-        )}
+          {demo && (
+            <Link
+              href={demo}
+              target="_blank"
+              className="shadow flex gap-2 items-center bg-cta px-2 py-1 rounded-xl text-basicBackground"
+            >
+              <GrDeploy size={22} className="rotate-6" />
+              <p className="font-semibold">Demo</p>
+            </Link>
+          )}
+        </div>
       </div>
+      <Link
+        href={demo ? demo : repo}
+        target="_blank"
+        className="basis-6/12 flex-grow md:h-96 px-2 md:p-5 pb-0"
+      >
+        <Image
+          alt="imagen del articulo"
+          src={image}
+          className={`object-cover w-full h-full rounded-xl`}
+          width={720}
+          height={360}
+        />
+      </Link>
     </article>
   );
 }
