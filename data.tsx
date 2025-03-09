@@ -23,7 +23,16 @@ export const projects = [
     image: "/projects/do-it-project.png",
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
-  }
+  },
+  {
+    name: "Typing Test",
+    subtitle: "Are you typing fast?",
+    description:
+      "Users type random words in 30 seconds, receiving real-time feedback on accuracy and speed. This is built with vanilla JavaScript, using event listeners, DOM manipulation, and interval timers, demonstrating its power without frameworks.",
+    image: "/projects/typing-test.png",
+    repo: "https://github.com/fantasyfuerte/typing-test",
+    demo: "https://snazzy-mooncake-434a4b.netlify.app/",
+  },
 ];
 
 export const navbarLinks = [
@@ -150,5 +159,4 @@ export const socialLinks = [
     href: "https://www.github.com/fantasyfuerte",
     icon: "/social-icons/github.svg",
   },
-  
 ];
