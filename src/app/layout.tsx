@@ -5,12 +5,12 @@ import NavBar from "@/components/navbar";
 
 const globalFont = Noto_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "600","700","800"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
   title: "Fuerte's Portfolio",
-  description: "A portfolio of my work and projects.",
+  description: "A portfolio of my work and projects",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${globalFont.className} antialiased select-none`}>
         {children}
-        <NavBar/>
+        <NavBar />
       </body>
     </html>
   );
