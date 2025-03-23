@@ -46,11 +46,8 @@ function AboutPage() {
             </Link>
           </div>
         </section>
-
         <section className="mt-14 text-primary/80">
-          <h3 className="text-2xl text-center py-3 font-bold">
-            Tools & Skills
-          </h3>
+          <h3 className="text-xl text-center py-3 font-bold">Tools & Skills</h3>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Frontend:</h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-6 md:px-64 xl:px-96">
