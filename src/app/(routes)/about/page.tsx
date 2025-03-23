@@ -2,6 +2,7 @@ import TransitionPage from "@/components/transition-page";
 import Image from "next/image";
 import { tools } from "../../../../data";
 import ToolItem from "@/components/tool-item";
+import Link from "next/link";
 
 function AboutPage() {
   return (
@@ -30,9 +31,12 @@ function AboutPage() {
               Every project is a step toward creating something impactful
               because great design isn&apos;t just seen, it&apos;s felt.
             </p>
-            <button className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold">
+            <Link
+              href="mailto:leandrofuerte75@gmail.com?subject=Hello%20I%20came%20from%20your%20portfolio%20website"
+              className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold"
+            >
               Get in touch
-            </button>
+            </Link>
           </div>
         </section>
 
