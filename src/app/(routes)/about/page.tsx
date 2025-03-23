@@ -2,7 +2,6 @@ import TransitionPage from "@/components/transition-page";
 import Image from "next/image";
 import { tools } from "../../../../data";
 import ToolItem from "@/components/tool-item";
-import ContactMe from "@/components/contact-me";
 
 function AboutPage() {
   return (
@@ -10,7 +9,6 @@ function AboutPage() {
       <TransitionPage />
       <main className="pt-5 pb-24 text-primary bg-basicBackground">
         <section className="text-primary mt-10">
-          <ContactMe />
           <article>
             <h3 className="text-2xl text-center py-2 font-bold opacity-80">
               Who am I?
