@@ -9,16 +9,13 @@ function AboutPage() {
       <TransitionPage />
       <main className="pt-5 pb-24 text-primary bg-basicBackground">
         <div className="flex flex-col items-center gap-8">
-          <div
-            className="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden rounded-full border-4"
-            style={{ borderColor: "#d4ceaa" }}
-          >
+          <div className="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden rounded-full border-4 border-middleColor shadow-md shadow-secondary">
             <Image
-              src="/about-avatar.png"
+              src="/about.png"
               alt="avatar"
               width={300}
               height={300}
-              className="object-cover"
+              className="object-cover scale-125 -ml-[9px]"
             />
           </div>
 
