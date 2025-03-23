@@ -8,7 +8,7 @@ import {
 export const projects = [
   // {
   //   name: "Gainz Journal",
-  //   subtitle: "Fitness Diary",
+  //   subtitle: "More Than Tracking",
   //   description:
   //     "Gainz Journal is a fitness journaling app that allows users to track their daily workouts and monitor their progress. It provides a comprehensive and user-friendly interface, making it easy for users to stay motivated and on track with their fitness goals.",
   //   image: "/projects/pocket-ledger.png",
@@ -17,7 +17,7 @@ export const projects = [
   // },
   {
     name: "DO-IT-PROJECT",
-    subtitle: "Accomplishing goals",
+    subtitle: "Accomplishing Goals",
     description:
       "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
     image: "/projects/do-it-project.png",
@@ -35,7 +35,7 @@ export const projects = [
   },
   {
     name: "Typing Test",
-    subtitle: "Are you typing fast?",
+    subtitle: "Are You Typing Fast?",
     description:
       "Users type random words in 30 seconds, receiving real-time feedback on accuracy and speed. This is built with vanilla JavaScript, using event listeners, DOM manipulation, and interval timers, demonstrating its power without frameworks.",
     image: "/projects/typing-test.png",
