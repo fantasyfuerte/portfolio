@@ -6,15 +6,15 @@ import {
 } from "react-icons/pi";
 
 export const projects = [
-  {
-    name: "Pocket Ledger",
-    subtitle: "Your Finance Freedom",
-    description:
-      "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
-    image: "/projects/pocket-ledger.png",
-    repo: "https://github.com/fantasyfuerte/pocket-ledger",
-    demo: "https://pocket-ledger.vercel.app/",
-  },
+  // {
+  //   name: "Gainz Journal",
+  //   subtitle: "Fitness Diary",
+  //   description:
+  //     "Gainz Journal is a fitness journaling app that allows users to track their daily workouts and monitor their progress. It provides a comprehensive and user-friendly interface, making it easy for users to stay motivated and on track with their fitness goals.",
+  //   image: "/projects/pocket-ledger.png",
+  //   repo: "https://github.com/fantasyfuerte/gainz-journal",
+  //   demo: "https://gainzjournal.vercel.app/",
+  // },
   {
     name: "DO-IT-PROJECT",
     subtitle: "Accomplishing goals",
@@ -23,6 +23,15 @@ export const projects = [
     image: "/projects/do-it-project.png",
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
+  },
+  {
+    name: "Pocket Ledger",
+    subtitle: "Your Finance Freedom",
+    description:
+      "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
+    image: "/projects/pocket-ledger.png",
+    repo: "https://github.com/fantasyfuerte/pocket-ledger",
+    demo: "https://pocket-ledger.vercel.app/",
   },
   {
     name: "Typing Test",
