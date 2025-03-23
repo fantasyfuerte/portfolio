@@ -9,13 +9,13 @@ function ToolItem({ tool }: Props) {
   return (
     <div
       key={tool.name}
-      className="h-20 flex flex-col items-center justify-center p-3"
+      className="h-14 flex flex-col items-center justify-center p-2"
     >
       <img
         src={tool.icon}
         alt={tool.name}
-        width={50}
-        height={50}
+        width={40}
+        height={40}
         className="w-full h-full object-contain drop-shadow-custom"
       />
     </div>
