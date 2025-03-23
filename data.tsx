@@ -10,7 +10,7 @@ export const projects = [
   //   name: "Gainz Journal",
   //   subtitle: "More Than Tracking",
   //   description:
-  //     "Gainz Journal is a fitness journaling app that allows users to track their daily workouts and monitor their progress. It provides a comprehensive and user-friendly interface, making it easy for users to stay motivated and on track with their fitness goals.",
+  //     "Gainz Journal is your ultimate workout companion, built to ignite your drive and fuel your fitness journey. Log every rep, track every milestone, and stay inspired as you transform effort into results.",
   //   image: "/projects/pocket-ledger.png",
   //   repo: "https://github.com/fantasyfuerte/gainz-journal",
   //   demo: "https://gainzjournal.vercel.app/",
