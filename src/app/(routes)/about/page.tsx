@@ -32,7 +32,7 @@ function AboutPage() {
               because great design isn&apos;t just seen, it&apos;s felt.
             </p>
             <Link
-              href="mailto:leandrofuerte75@gmail.com?subject=Hello%20I%20came%20from%20your%20portfolio%20website"
+              href="mailto:leandrofuerte75@gmail.com?subject=Hello%2C%20I%20am%20eager%20to%20join%20forces%20with%20you"
               className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold"
             >
               Get in touch
