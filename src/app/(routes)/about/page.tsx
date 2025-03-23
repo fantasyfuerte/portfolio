@@ -32,14 +32,13 @@ function AboutPage() {
 
             <div className="h-1 w-20 md:w-32 mx-auto mb-6 bg-cta"></div>
 
-            <div className="mb-4 text-xl md:text-2xl font-medium italic text-secondary">
+            <div className="mb-3 text-xl md:text-2xl font-semibold italic text-primary/80">
               &quot;Turning ideas into code, and code into experiences.&quot;
             </div>
 
-            <p className="mb-6 text-lg" style={{ color: "#2b2823" }}>
-              I&apos;m a passionate web developer with 5+ years of experience
-              crafting beautiful, functional digital experiences that solve real
-              problems.
+            <p className="mb-6 text-lg md:mx-44 lg:mx-72 text-secondary font-medium">
+              Every project is a step toward creating something impactful
+              because great design isn&apos;t just seen, it&apos;s felt.
             </p>
 
             <button
