@@ -34,7 +34,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-2 mt-8">
             <Link
-              href="/about/#contact"
+              href="mailto:leandrofuerte75@gmail.com?subject=Hello%20I%20came%20from%20your%20portfolio%20website"
               className="bg-cta rounded-2xl px-4 py-2 text-basicBackground font-bold hover:opacity-90 active:scale-105 active:transition"
             >
               Contact Me
