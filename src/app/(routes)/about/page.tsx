@@ -20,10 +20,7 @@ function AboutPage() {
           </div>
 
           <div className="flex-1 text-center">
-            <h2
-              className="text-2xl md:text-3xl font-bold mb-3"
-              style={{ color: "#2b2823" }}
-            >
+            <h2 className="text-2xl md:text-3xl font-semibold mb-2 text-primary">
               Hello, I&apos;m Fuerte
             </h2>
 
