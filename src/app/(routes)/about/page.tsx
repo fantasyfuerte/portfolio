@@ -35,10 +35,7 @@ function AboutPage() {
               because great design isn&apos;t just seen, it&apos;s felt.
             </p>
 
-            <button
-              className="px-6 py-3 rounded-md text-white font-medium transition-transform hover:scale-105"
-              style={{ backgroundColor: "#cc3917" }}
-            >
+            <button className="px-6 py-3 rounded-md text-white font-medium transition-transform hover:scale-105 bg-cta">
               Get in touch
             </button>
           </div>
