@@ -23,14 +23,14 @@ function AboutPage() {
               Hello, I&apos;m Fuerte
             </h2>
             <div className="h-1 w-20 md:w-32 mx-auto mb-6 bg-cta"></div>
-            <div className="mb-3 text-xl md:text-2xl font-semibold italic text-primary/80">
+            <div className="mb-3 mx-4 text-lg md:text-2xl font-semibold italic text-primary/80">
               &quot;Turning ideas into code, and code into experiences.&quot;
             </div>
-            <p className="mb-6 text-lg md:mx-44 lg:mx-72 text-secondary font-medium">
+            <p className="mb-6 mx-2 text-[16px] md:mx-44 lg:mx-72 text-secondary font-medium">
               Every project is a step toward creating something impactful
               because great design isn&apos;t just seen, it&apos;s felt.
             </p>
-            <button className="px-6 py-3 rounded-md text-white font-medium transition-transform hover:scale-105 bg-cta">
+            <button className="px-4 py-2 rounded-md text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold">
               Get in touch
             </button>
           </div>
