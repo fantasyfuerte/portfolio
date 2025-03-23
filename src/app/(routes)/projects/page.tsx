@@ -10,8 +10,8 @@ function ProjectsPage() {
         <h3 className="text-2xl font-bold text-primary text-center py-4">
           Projects
         </h3>
-        <section className="">
-          {projects.map((project,index) => (
+        <section className="-mt-8">
+          {projects.map((project, index) => (
             <ProjectItem
               bg={index % 2 !== 0}
               name={project.name}
