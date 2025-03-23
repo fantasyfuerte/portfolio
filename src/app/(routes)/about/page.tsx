@@ -40,20 +40,17 @@ function AboutPage() {
             </p>
             <Link
               href="mailto:leandrofuerte75@gmail.com?subject=Hello%2C%20I%20am%20eager%20to%20join%20forces%20with%20you%21"
-              className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold"
+              className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-bold"
             >
               Get in touch
             </Link>
           </div>
         </section>
-
         <section className="mt-14 text-primary/80">
-          <h3 className="text-2xl text-center py-3 font-bold">
-            Tools & Skills
-          </h3>
+          <h3 className="text-xl text-center py-3 font-bold">Tools & Skills</h3>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Frontend:</h3>
-            <div className="grid grid-cols-4 gap-2 py-2 px-6 md:px-64 xl:px-96">
+            <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
               {tools.frontend.map((tool) => (
                 <ToolItem key={tool.name} tool={tool} />
               ))}
@@ -61,7 +58,7 @@ function AboutPage() {
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Backend:</h3>
-            <div className="grid grid-cols-4 gap-2 py-2 px-6 md:px-64 xl:px-96">
+            <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
               {tools.backend.map((tool) => (
                 <ToolItem key={tool.name} tool={tool} />
               ))}
@@ -69,7 +66,7 @@ function AboutPage() {
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Languages:</h3>
-            <div className="grid grid-cols-4 gap-2 py-2 px-6 md:px-64 xl:px-96">
+            <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
               {tools.laguages.map((tool) => (
                 <ToolItem key={tool.name} tool={tool} />
               ))}
@@ -77,7 +74,7 @@ function AboutPage() {
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Mobile:</h3>
-            <div className="grid grid-cols-4 gap-2 py-2 px-6 md:px-64 xl:px-96">
+            <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
               {tools.mobile.map((tool) => (
                 <ToolItem key={tool.name} tool={tool} />
               ))}
@@ -85,7 +82,7 @@ function AboutPage() {
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Other:</h3>
-            <div className="grid grid-cols-4 gap-2 py-2 px-6 md:px-64 xl:px-96">
+            <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
               {tools.other.map((tool) => (
                 <ToolItem key={tool.name} tool={tool} />
               ))}
