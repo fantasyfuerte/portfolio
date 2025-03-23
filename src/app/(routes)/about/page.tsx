@@ -40,7 +40,7 @@ function AboutPage() {
             </p>
             <Link
               href="mailto:leandrofuerte75@gmail.com?subject=Hello%2C%20I%20am%20eager%20to%20join%20forces%20with%20you%21"
-              className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold"
+              className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-bold"
             >
               Get in touch
             </Link>
