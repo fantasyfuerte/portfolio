@@ -2,14 +2,41 @@ import TransitionPage from "@/components/transition-page";
 import Image from "next/image";
 import { tools } from "../../../../data";
 import ToolItem from "@/components/tool-item";
-import ContactMe from "@/components/contact-me";
 
 function AboutPage() {
   return (
     <>
       <TransitionPage />
       <main className="pt-5 pb-24 text-primary bg-basicBackground">
-        <section>
+        <section className="flex flex-col items-center gap-8">
+          <div className="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden rounded-full border-4 border-middleColor shadow-md shadow-secondary">
+            <Image
+              src="/about.png"
+              alt="avatar"
+              width={300}
+              height={300}
+              className="object-cover scale-125 -ml-[9px]"
+            />
+          </div>
+          <div className="flex-1 text-center">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-2 text-primary">
+              Hello, I&apos;m Fuerte
+            </h2>
+            <div className="h-1 w-20 md:w-32 mx-auto mb-6 bg-cta"></div>
+            <div className="mb-3 mx-4 text-lg md:text-lg font-semibold italic text-primary/80">
+              &quot;Turning ideas into code, and code into experiences.&quot;
+            </div>
+            <p className="mb-6 mx-2 px-3 md:px-12 xl:px-20 text-[16px] lg:mx-72 text-secondary font-medium">
+              Every project is a step toward creating something impactful
+              because great design isn&apos;t just seen, it&apos;s felt.
+            </p>
+            <button className="px-4 py-2 rounded-full text-basicBackground text-lg bg-cta hover:bg-cta/80 active:bg-cta/70 transition-opacity font-semibold">
+              Get in touch
+            </button>
+          </div>
+        </section>
+
+        <section className="mt-14">
           <h3 className="text-2xl text-center py-3 font-bold opacity-80">
             Tools & Skills
           </h3>
@@ -52,37 +79,6 @@ function AboutPage() {
                 <ToolItem key={tool.name} tool={tool} />
               ))}
             </div>
-          </article>
-        </section>
-        <section className="text-primary mt-10">
-          <ContactMe />
-          <article>
-            <h3 className="text-2xl text-center py-2 font-bold opacity-80">
-              Who am I?
-            </h3>
-            <Image
-              className="mx-auto"
-              alt="about-photo"
-              src="/about-avatar.png"
-              width={200}
-              height={200}
-            />
-            <p className="text-center p-4 opacity-80 font-semibold">
-              My name is{" "}
-              <span className="font-bold text-cta">Leandro Fuerte</span>. I am a{" "}
-              <span className="font-bold text-cta">Fullstack Developer</span>{" "}
-              with a specialized focus on{" "}
-              <span className="font-bold text-cta">frontend development</span>.
-              <br></br> I have a strong passion for creating{" "}
-              <span className="font-bold text-cta">
-                intuitive and user-friendly interfaces{" "}
-              </span>
-              that enhance the{" "}
-              <span className="font-bold text-cta">user experience</span>. My
-              goal is to continuously learn and innovate in order to build{" "}
-              <span className="font-bold text-cta">efficient and scalable</span>{" "}
-              applications that make a difference.
-            </p>
           </article>
         </section>
       </main>
