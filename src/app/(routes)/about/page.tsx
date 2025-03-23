@@ -4,6 +4,7 @@ import { tools } from "../../../../data";
 import ToolItem from "@/components/tool-item";
 import Link from "next/link";
 import { Monsieur_La_Doulaise } from "next/font/google";
+import SocialLinks from "@/components/social-links";
 
 const brandFont = Monsieur_La_Doulaise({
   weight: ["400"],
@@ -30,7 +31,8 @@ function AboutPage() {
               I&apos;m{" "}
               <span className={`text-6xl ${brandFont.className}`}>Fuerte</span>
             </h2>
-            <div className="h-1 w-24 md:w-32 mx-auto mb-6 bg-cta rounded-full"></div>
+            <div className="h-1 w-24 md:w-32 mx-auto bg-cta rounded-full"></div>
+            <SocialLinks/>
             <div className="mb-3 mx-4 text-lg md:text-lg font-semibold italic text-primary/80">
               &quot;Turning ideas into code, and code into experiences.&quot;
             </div>
