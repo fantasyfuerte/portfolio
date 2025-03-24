@@ -6,6 +6,24 @@ import {
 } from "react-icons/pi";
 
 export const projects = [
+  // {
+  //   name: "Gainz Journal",
+  //   subtitle: "More Than Tracking",
+  //   description:
+  //     "Gainz Journal is your ultimate workout companion, built to ignite your drive and fuel your fitness journey. Log every rep, track every milestone, and stay inspired as you transform effort into results.",
+  //   image: "/projects/pocket-ledger.png",
+  //   repo: "https://github.com/fantasyfuerte/gainz-journal",
+  //   demo: "https://gainzjournal.vercel.app/",
+  // },
+  {
+    name: "DO-IT-PROJECT",
+    subtitle: "Accomplishing Goals",
+    description:
+      "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
+    image: "/projects/do-it-project.png",
+    repo: "https://github.com/fantasyfuerte/do-it-project",
+    demo: "https://do-it-now-project.vercel.app/",
+  },
   {
     name: "Pocket Ledger",
     subtitle: "Your Finance Freedom",
@@ -16,17 +34,8 @@ export const projects = [
     demo: "https://pocket-ledger.vercel.app/",
   },
   {
-    name: "DO-IT-PROJECT",
-    subtitle: "Accomplishing goals",
-    description:
-      "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
-    image: "/projects/do-it-project.png",
-    repo: "https://github.com/fantasyfuerte/do-it-project",
-    demo: "https://do-it-now-project.vercel.app/",
-  },
-  {
     name: "Typing Test",
-    subtitle: "Are you typing fast?",
+    subtitle: "Are You Typing Fast?",
     description:
       "Users type random words in 30 seconds, receiving real-time feedback on accuracy and speed. This is built with vanilla JavaScript, using event listeners, DOM manipulation, and interval timers, demonstrating its power without frameworks.",
     image: "/projects/typing-test.png",
