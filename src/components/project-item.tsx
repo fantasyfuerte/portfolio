@@ -37,11 +37,15 @@ function ProjectItem({
         <p className="text-md font-semibold mt-8 text-pretty first-letter:ml-2 text-primary/80">
           {description}
         </p>
-        <div className="flex flex-wrap gap-2 mt-4">
+        <div className="flex flex-wrap gap-1 mt-4">
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="px-3 py-1 text-sm font-medium rounded-full bg-secondary text-basicBackground"
+              className={`px-3 py-1 text-[12px] font-bold rounded-full ${
+                bg
+                  ? "bg-basicBackground/90 text-primary/80"
+                  : "bg-secondary text-basicBackground"
+              }`}
             >
               {tech}
             </span>
