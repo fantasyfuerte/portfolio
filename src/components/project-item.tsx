@@ -10,6 +10,7 @@ interface Props {
   repo: string;
   demo?: string;
   bg: boolean;
+  technologies: string[];
 }
 
 function ProjectItem({
@@ -20,6 +21,7 @@ function ProjectItem({
   repo,
   demo,
   bg,
+  technologies,
 }: Props) {
   return (
     <article
@@ -35,7 +37,21 @@ function ProjectItem({
         <p className="text-md font-semibold mt-8 text-pretty first-letter:ml-2 text-primary/80">
           {description}
         </p>
-        <div className="pt-6 flex gap-2 ">
+        <div className="flex flex-wrap gap-1 mt-4">
+          {technologies.map((tech, index) => (
+            <span
+              key={index}
+              className={`px-3 py-1 text-[12px] font-bold rounded-full ${
+                bg
+                  ? "bg-basicBackground/90 text-primary/80"
+                  : "bg-primary/70 text-basicBackground"
+              }`}
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+        <div className="pt-6 flex gap-2">
           <Link
             href={repo}
             target="_blank"

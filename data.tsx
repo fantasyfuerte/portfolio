@@ -6,15 +6,16 @@ import {
 } from "react-icons/pi";
 
 export const projects = [
-  // {
-  //   name: "Gainz Journal",
-  //   subtitle: "More Than Tracking",
-  //   description:
-  //     "Gainz Journal is your ultimate workout companion, built to ignite your drive and fuel your fitness journey. Log every rep, track every milestone, and stay inspired as you transform effort into results.",
-  //   image: "/projects/gainzjournal.png",
-  //   repo: "https://github.com/fantasyfuerte/gainz-journal",
-  //   demo: "https://gainzjournal.vercel.app/",
-  // },
+  {
+    name: "Gainz Journal",
+    subtitle: "More Than Tracking",
+    description:
+      "Gainz Journal is your ultimate workout companion, built to ignite your drive and fuel your fitness journey. Log every rep, track every milestone, and stay inspired as you transform effort into results.",
+    image: "/projects/gainzjournal.png",
+    repo: "https://github.com/fantasyfuerte/gainz-journal",
+    demo: "https://gainzjournal.vercel.app/",
+    technologies: ["NextJS","React","TypeScript","PrismaORM","PostgreSQL","TailwindCSS","Motion","AuthJS"]
+  },
   {
     name: "DO-IT-PROJECT",
     subtitle: "Accomplishing Goals",
@@ -23,6 +24,7 @@ export const projects = [
     image: "/projects/do-it-project.png",
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
+    technologies: ["React","Vite","TypeScript","TailwindCSS","Motion"]
   },
   {
     name: "Pocket Ledger",
@@ -32,6 +34,7 @@ export const projects = [
     image: "/projects/pocket-ledger.png",
     repo: "https://github.com/fantasyfuerte/pocket-ledger",
     demo: "https://pocket-ledger.vercel.app/",
+    technologies: ["React","NextJS","TypeScript","TailwindCSS","Motion"]
   },
   {
     name: "Typing Test",
@@ -41,6 +44,7 @@ export const projects = [
     image: "/projects/typing-test.png",
     repo: "https://github.com/fantasyfuerte/typing-test",
     demo: "https://snazzy-mooncake-434a4b.netlify.app/",
+    technologies: ["JavaScript","HTML","CSS"]
   },
 ];
 
@@ -66,20 +70,12 @@ export const tools = {
       icon: "/icons/nextjs.svg",
     },
     {
-      name: "TailwindCSS",
-      icon: "/icons/tailwindcss.svg",
-    },
-    {
       name: "Vite",
       icon: "/icons/vitejs.svg",
     },
     {
-      name: "CSS",
-      icon: "/icons/css.svg",
-    },
-    {
-      name: "HTML",
-      icon: "/icons/html.svg",
+      name: "TailwindCSS",
+      icon: "/icons/tailwindcss.svg",
     },
     {
       name: "Motion",
@@ -89,8 +85,20 @@ export const tools = {
       name: "Figma",
       icon: "/icons/figma.svg",
     },
+    {
+      name: "CSS",
+      icon: "/icons/css.svg",
+    },
+    {
+      name: "HTML",
+      icon: "/icons/html.svg",
+    },
   ],
   backend: [
+    {
+      name: "PrismaORM",
+      icon: "/icons/prisma.svg",
+    },
     {
       name: "NodeJS",
       icon: "/icons/nodejs.svg",
@@ -100,16 +108,12 @@ export const tools = {
       icon: "/icons/expressjs.svg",
     },
     {
-      name: "Sqlite",
-      icon: "/icons/sqlite.svg",
-    },
-    {
       name: "PostgreSQL",
       icon: "/icons/postgresql.svg",
     },
     {
-      name: "Prisma",
-      icon: "/icons/prisma.svg",
+      name: "SQLite",
+      icon: "/icons/sqlite.svg",
     },
   ],
   laguages: [
@@ -146,7 +150,7 @@ export const tools = {
       icon: "/icons/github.svg",
     },
     {
-      name: "Deployment & CI/CD",
+      name: "Deployment",
       icon: "/icons/deployment.svg",
     },
   ],
