@@ -21,6 +21,7 @@ function ProjectsPage() {
               repo={project.repo}
               demo={project.demo}
               key={project.name}
+              technologies={project.technologies}
             />
           ))}
         </section>
