@@ -44,7 +44,7 @@ function ProjectItem({
               className={`px-3 py-1 text-[12px] font-bold rounded-full ${
                 bg
                   ? "bg-basicBackground/90 text-primary/80"
-                  : "bg-secondary text-basicBackground"
+                  : "bg-primary/70 text-basicBackground"
               }`}
             >
               {tech}
