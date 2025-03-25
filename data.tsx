@@ -14,7 +14,16 @@ export const projects = [
     image: "/projects/gainzjournal.png",
     repo: "https://github.com/fantasyfuerte/gainz-journal",
     demo: "https://gainzjournal.vercel.app/",
-    technologies: ["NextJS","React","TypeScript","PrismaORM","PostgreSQL","TailwindCSS","Motion","AuthJS"]
+    technologies: [
+      "NextJS",
+      "React",
+      "TypeScript",
+      "PrismaORM",
+      "PostgreSQL",
+      "TailwindCSS",
+      "Motion",
+      "AuthJS",
+    ],
   },
   {
     name: "DO-IT-PROJECT",
@@ -24,7 +33,7 @@ export const projects = [
     image: "/projects/do-it-project.png",
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
-    technologies: ["React","Vite","TypeScript","TailwindCSS","Motion"]
+    technologies: ["React", "Vite", "TypeScript", "TailwindCSS", "Motion"],
   },
   {
     name: "Pocket Ledger",
@@ -34,7 +43,7 @@ export const projects = [
     image: "/projects/pocket-ledger.png",
     repo: "https://github.com/fantasyfuerte/pocket-ledger",
     demo: "https://pocket-ledger.vercel.app/",
-    technologies: ["React","NextJS","TypeScript","TailwindCSS","Motion"]
+    technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "Motion"],
   },
   {
     name: "Typing Test",
@@ -44,7 +53,7 @@ export const projects = [
     image: "/projects/typing-test.png",
     repo: "https://github.com/fantasyfuerte/typing-test",
     demo: "https://snazzy-mooncake-434a4b.netlify.app/",
-    technologies: ["JavaScript","HTML","CSS"]
+    technologies: ["JavaScript", "HTML", "CSS"],
   },
 ];
 
