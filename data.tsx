@@ -66,20 +66,12 @@ export const tools = {
       icon: "/icons/nextjs.svg",
     },
     {
-      name: "TailwindCSS",
-      icon: "/icons/tailwindcss.svg",
-    },
-    {
       name: "Vite",
       icon: "/icons/vitejs.svg",
     },
     {
-      name: "CSS",
-      icon: "/icons/css.svg",
-    },
-    {
-      name: "HTML",
-      icon: "/icons/html.svg",
+      name: "TailwindCSS",
+      icon: "/icons/tailwindcss.svg",
     },
     {
       name: "Motion",
@@ -89,8 +81,20 @@ export const tools = {
       name: "Figma",
       icon: "/icons/figma.svg",
     },
+    {
+      name: "CSS",
+      icon: "/icons/css.svg",
+    },
+    {
+      name: "HTML",
+      icon: "/icons/html.svg",
+    },
   ],
   backend: [
+    {
+      name: "PrismaORM",
+      icon: "/icons/prisma.svg",
+    },
     {
       name: "NodeJS",
       icon: "/icons/nodejs.svg",
@@ -100,16 +104,12 @@ export const tools = {
       icon: "/icons/expressjs.svg",
     },
     {
-      name: "Sqlite",
-      icon: "/icons/sqlite.svg",
-    },
-    {
       name: "PostgreSQL",
       icon: "/icons/postgresql.svg",
     },
     {
-      name: "Prisma",
-      icon: "/icons/prisma.svg",
+      name: "SQLite",
+      icon: "/icons/sqlite.svg",
     },
   ],
   laguages: [
@@ -146,7 +146,7 @@ export const tools = {
       icon: "/icons/github.svg",
     },
     {
-      name: "Deployment & CI/CD",
+      name: "Deployment",
       icon: "/icons/deployment.svg",
     },
   ],
