@@ -29,7 +29,7 @@ function ProjectItem({
         bg && "bg-middleColor"
       }`}
     >
-      <div className="basis-6/12 flex-grow px-2 md:pl-5 md:pr-10 mb-7 ">
+      <div className="basis-7/12 md:basis-6/12 flex-grow px-2 md:pl-5 md:pr-10 mb-7 ">
         <h5 className="text-2xl min-w-max md:text-4xl text-primary/90">
           {name}: <br></br>
           <strong className="text-primary">{subtitle}</strong>
