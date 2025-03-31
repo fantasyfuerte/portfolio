@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/navbar";
@@ -11,6 +11,11 @@ const globalFont = Noto_Sans({
 export const metadata: Metadata = {
   title: "Fuerte's Portfolio",
   description: "A portfolio of my work and projects",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1.0,
 };
 
 export default function RootLayout({
