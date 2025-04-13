@@ -7,6 +7,26 @@ import {
 
 export const projects = [
   {
+    name: "Python School",
+    subtitle: "Time to Learn",
+    description:
+      "Python School is a platform with a wide range of exercises to help you learn Python. Whether you're a beginner or an experienced developer, Python School has something for everyone.",
+    image: "/projects/pythonschool.png",
+    repo: "https://github.com/fantasyfuerte/python-school-ui-design",
+    demo: "https://pythonschool.vercel.app/",
+    technologies: ["NextJS", "React", "TypeScript", "TailwindCSS"],
+  },
+  {
+    name: "DO-IT-PROJECT",
+    subtitle: "Accomplishing Goals",
+    description:
+      "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
+    image: "/projects/do-it-project.png",
+    repo: "https://github.com/fantasyfuerte/do-it-project",
+    demo: "https://do-it-now-project.vercel.app/",
+    technologies: ["React", "Vite", "TypeScript", "TailwindCSS", "Motion"],
+  },
+  {
     name: "Gainz Journal",
     subtitle: "More Than Tracking",
     description:
@@ -24,16 +44,6 @@ export const projects = [
       "Motion",
       "AuthJS",
     ],
-  },
-  {
-    name: "DO-IT-PROJECT",
-    subtitle: "Accomplishing Goals",
-    description:
-      "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
-    image: "/projects/do-it-project.png",
-    repo: "https://github.com/fantasyfuerte/do-it-project",
-    demo: "https://do-it-now-project.vercel.app/",
-    technologies: ["React", "Vite", "TypeScript", "TailwindCSS", "Motion"],
   },
   {
     name: "Pocket Ledger",
