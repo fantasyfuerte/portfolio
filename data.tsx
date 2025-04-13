@@ -8,7 +8,7 @@ import {
 export const projects = [
   {
     name: "Python School",
-    subtitle: "Time to Learn",
+    subtitle: "Time to Learn!",
     description:
       "Python School is a platform with a wide range of exercises to help you learn Python. Whether you're a beginner or an experienced developer, Python School has something for everyone.",
     image: "/projects/pythonschool.png",
