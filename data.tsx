@@ -17,14 +17,14 @@ export const projects = [
     technologies: ["NextJS", "React", "TypeScript", "TailwindCSS"],
   },
   {
-    name: "Pocket Ledger",
-    subtitle: "Your Finance Freedom",
+    name: "CocoGuess",
+    subtitle: "Time to Play!",
     description:
-      "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
-    image: "/projects/pocket-ledger.png",
-    repo: "https://github.com/fantasyfuerte/pocket-ledger",
-    demo: "https://pocket-ledger.vercel.app/",
-    technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "Motion"],
+      "Guess the number of your rival in a fun and interactive way. The game is designed to be engaging and challenging, with a unique twist that makes it stand out from other guessing games.",
+    image: "/projects/cocoguess.png",
+    repo: "https://github.com/fantasyfuerte/numbers-game",
+    demo: "https://cocoguess.vercel.app/",
+    technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "SocketIO"],
   },
   {
     name: "Gainz Journal",
@@ -45,6 +45,7 @@ export const projects = [
       "AuthJS",
     ],
   },
+
   {
     name: "DO-IT-PROJECT",
     subtitle: "Accomplishing Goals",
@@ -54,6 +55,16 @@ export const projects = [
     repo: "https://github.com/fantasyfuerte/do-it-project",
     demo: "https://do-it-now-project.vercel.app/",
     technologies: ["React", "Vite", "TypeScript", "TailwindCSS", "Motion"],
+  },
+  {
+    name: "Pocket Ledger",
+    subtitle: "Your Finance Freedom",
+    description:
+      "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
+    image: "/projects/pocket-ledger.png",
+    repo: "https://github.com/fantasyfuerte/pocket-ledger",
+    demo: "https://pocket-ledger.vercel.app/",
+    technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "Motion"],
   },
   {
     name: "Typing Test",
