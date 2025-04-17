@@ -26,7 +26,8 @@ function ProjectItem({
   return (
     <article
       className={`flex max-h-max flex-wrap items-center my-10 py-8 px-2 md:px-8 ${
-        bg && "bg-gradient-to-b from-middleColor to-basicBackground from-85%"
+        bg &&
+        "bg-gradient-to-b from-basicBackground via-middleColor to-basicBackground from-0% via-50% to-100%"
       }`}
     >
       <div className="basis-7/12 md:basis-6/12 flex-grow px-2 md:pl-5 md:pr-10 mb-7 ">
