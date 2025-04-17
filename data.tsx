@@ -17,14 +17,14 @@ export const projects = [
     technologies: ["NextJS", "React", "TypeScript", "TailwindCSS"],
   },
   {
-    name: "DO-IT-PROJECT",
-    subtitle: "Accomplishing Goals",
+    name: "Pocket Ledger",
+    subtitle: "Your Finance Freedom",
     description:
-      "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
-    image: "/projects/do-it-project.png",
-    repo: "https://github.com/fantasyfuerte/do-it-project",
-    demo: "https://do-it-now-project.vercel.app/",
-    technologies: ["React", "Vite", "TypeScript", "TailwindCSS", "Motion"],
+      "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
+    image: "/projects/pocket-ledger.png",
+    repo: "https://github.com/fantasyfuerte/pocket-ledger",
+    demo: "https://pocket-ledger.vercel.app/",
+    technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "Motion"],
   },
   {
     name: "Gainz Journal",
@@ -46,14 +46,14 @@ export const projects = [
     ],
   },
   {
-    name: "Pocket Ledger",
-    subtitle: "Your Finance Freedom",
+    name: "DO-IT-PROJECT",
+    subtitle: "Accomplishing Goals",
     description:
-      "Finance app designed to track incomes and expenses efficiently. It provides a comprehensive transaction history, enabling users to monitor financial health and make informed decisions.",
-    image: "/projects/pocket-ledger.png",
-    repo: "https://github.com/fantasyfuerte/pocket-ledger",
-    demo: "https://pocket-ledger.vercel.app/",
-    technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "Motion"],
+      "Web application designed to help users achieve their daily objectives effortlessly. The platform offers a suite of simple yet powerful tools that enable users to organize their tasks, track habits, daily inspiration and more.",
+    image: "/projects/do-it-project.png",
+    repo: "https://github.com/fantasyfuerte/do-it-project",
+    demo: "https://do-it-now-project.vercel.app/",
+    technologies: ["React", "Vite", "TypeScript", "TailwindCSS", "Motion"],
   },
   {
     name: "Typing Test",
