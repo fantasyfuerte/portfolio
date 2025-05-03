@@ -31,7 +31,7 @@ export const projects = [
     subtitle: "More Than Tracking",
     description:
       "Gainz Journal is your ultimate workout companion, built to ignite your drive and fuel your fitness journey. Log every rep, track every milestone, and stay inspired as you transform effort into results.",
-    image: "/projects/gainzjournal.png",
+    image: "/projects/gainz-journal.png",
     repo: "https://github.com/fantasyfuerte/gainz-journal",
     // demo: "https://gainzjournal.vercel.app/",
     technologies: [
