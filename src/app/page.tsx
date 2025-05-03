@@ -1,9 +1,9 @@
 import TransitionPage from "@/components/transition-page";
-import { Monsieur_La_Doulaise } from "next/font/google";
+import { Ephesis } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
-const brandFont = Monsieur_La_Doulaise({
+const brandFont = Ephesis({
   weight: ["400"],
   subsets: ["latin"],
 });
@@ -15,8 +15,8 @@ export default function Home() {
       <main className="pt-6 bg-basicBackground h-screen">
         <div className="text-primary">
           <h3 className={`text-lg text-center -ml-4`}>Welcome To</h3>
-          <h1 className="text-lg text-center py-2">
-            <span className={`${brandFont.className} text-6xl`}>Fuerte</span>
+          <h1 className={`text-lg text-center py-2`}>
+            <span className={`${brandFont.className} text-6xl`}>Fuerte</span>{" "}
             &apos;s Showcase
           </h1>
         </div>
@@ -24,9 +24,10 @@ export default function Home() {
           <Image
             priority
             alt="homepage-photo"
-            src="/avatar.png"
-            width={250}
-            height={250}
+            src="/home.png"
+            width={150}
+            height={150}
+            className="py-20"
           />
           <p className="text-primary/80 text-center -mt-8">
             As a full-stack developer and designer, I specialize in creating

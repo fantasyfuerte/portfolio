@@ -3,10 +3,10 @@ import Image from "next/image";
 import { tools } from "../../../../data";
 import ToolItem from "@/components/tool-item";
 import Link from "next/link";
-import { Monsieur_La_Doulaise } from "next/font/google";
+import { Ephesis } from "next/font/google";
 import SocialLinks from "@/components/social-links";
 
-const brandFont = Monsieur_La_Doulaise({
+const brandFont = Ephesis({
   weight: ["400"],
   subsets: ["latin"],
 });
@@ -29,10 +29,12 @@ function AboutPage() {
           <div className="flex-1 text-center">
             <h2 className="text-xl md:text-2xl font-medium mb-1 text-primary">
               I&apos;m{" "}
-              <span className={`text-6xl ${brandFont.className}`}>Fuerte</span>
+              <span className={`text-6xl font-black ${brandFont.className}`}>
+                Fuerte
+              </span>
             </h2>
             <div className="h-1 w-24 md:w-32 mx-auto bg-cta rounded-full"></div>
-            <SocialLinks/>
+            <SocialLinks />
             <div className="mb-3 mx-4 text-lg md:text-lg font-semibold italic text-primary/80">
               &quot;Turning ideas into code, and code into experiences.&quot;
             </div>
