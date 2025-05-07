@@ -24,12 +24,12 @@ export default function Home() {
           <Image
             priority
             alt="homepage-photo"
-            src="/home.png"
-            width={150}
-            height={150}
+            src="/home-icon.png"
+            width={250}
+            height={250}
             className="py-20"
           />
-          <p className="text-primary/80 text-center -mt-8">
+          <p className="text-primary/80 text-center -mt-8 px-1">
             As a full-stack developer and designer, I specialize in creating
             unforgettable digital experiences.
           </p>
