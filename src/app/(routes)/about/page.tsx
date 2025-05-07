@@ -55,40 +55,40 @@ function AboutPage() {
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Frontend:</h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
-              {tools.frontend.map((tool) => (
-                <ToolItem key={tool.name} tool={tool} />
+              {tools.frontend.map((tool, index) => (
+                <ToolItem key={tool.name} {...tool} />
               ))}
             </div>
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Backend:</h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
-              {tools.backend.map((tool) => (
-                <ToolItem key={tool.name} tool={tool} />
+              {tools.backend.map((tool, index) => (
+                <ToolItem key={tool.name} {...tool} />
               ))}
             </div>
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Languages:</h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
-              {tools.laguages.map((tool) => (
-                <ToolItem key={tool.name} tool={tool} />
+              {tools.laguages.map((tool, index) => (
+                <ToolItem key={tool.name} {...tool} />
               ))}
             </div>
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Mobile:</h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
-              {tools.mobile.map((tool) => (
-                <ToolItem key={tool.name} tool={tool} />
+              {tools.mobile.map((tool, index) => (
+                <ToolItem key={tool.name} {...tool} />
               ))}
             </div>
           </article>
           <article>
             <h3 className="text-lg text-center py-1 font-bold">Other:</h3>
             <div className="grid grid-cols-4 gap-2 py-2 px-8 md:px-64 xl:px-96">
-              {tools.other.map((tool) => (
-                <ToolItem key={tool.name} tool={tool} />
+              {tools.other.map((tool, index) => (
+                <ToolItem key={tool.name} {...tool} />
               ))}
             </div>
           </article>

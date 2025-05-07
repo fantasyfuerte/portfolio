@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { GrDeploy } from "react-icons/gr";
+import { motion } from "motion/react";
 
 interface Props {
   name: string;
@@ -24,7 +27,11 @@ function ProjectItem({
   technologies,
 }: Props) {
   return (
-    <article
+    <motion.article
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, scale: [1, 1.05, 1] }}
+      transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}
+      viewport={{ once: true }}
       className={`flex max-h-max flex-wrap items-center my-10 py-8 px-2 md:px-8 ${
         bg &&
         "bg-gradient-to-b from-basicBackground via-middleColor to-basicBackground from-0% via-50% to-100%"
@@ -86,7 +93,7 @@ function ProjectItem({
           height={360}
         />
       </Link>
-    </article>
+    </motion.article>
   );
 }
 
