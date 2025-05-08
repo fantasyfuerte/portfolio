@@ -19,6 +19,7 @@ function AboutPage() {
         <section className="flex flex-col items-center gap-8">
           <div className="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden rounded-full border-4 border-middleColor shadow-md shadow-secondary">
             <Image
+              priority
               src="/about.png"
               alt="avatar"
               width={300}
