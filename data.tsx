@@ -7,6 +7,30 @@ import {
 
 export const projects = [
   {
+    name: "BizInvento Landing Page",
+    subtitle: "Best POS ever",
+    description: "A project mean to be the best POS(Point Of Sales) in all Cuba. Allowing you to manage your warehouses and much more",
+    image: "/projects/bizinvento.png",
+    demo: "https://bizinvento.vercel.app",
+    technologies: ["NextJS", "React", "TypeScript", "TailwindCSS", "Shadcn"],
+  },
+  {
+    name: "Indefinita Shop Dashboard",
+    subtitle: "Manage your store",
+    description: "Dashboard of a store owner still in development",
+    image: "/projects/indefinita-dashboard.png",
+    demo: "https://indefinita.vercel.app",
+    technologies: ["NextJS", "React", "TypeScript", "TailwindCSS", "Shadcn"],
+  },
+  {
+    name: "Vita",
+    subtitle: "Un mundo mejor",
+    description: "Homepage with basic information of a professional project which still in development.",
+    image: "/projects/vita-home.png",
+    demo: "https://vita.salyamgroup.com",
+    technologies: ["NextJS", "React", "TypeScript", "TailwindCSS", "Shadcn"],
+  },
+  {
     name: "Python School",
     subtitle: "Time to Learn!",
     description:

@@ -32,10 +32,9 @@ function ProjectItem({
       animate={{ opacity: 1, scale: [1, 1.05, 1] }}
       transition={{ duration: 1.5, ease: "easeInOut", delay: 1 }}
       viewport={{ once: true }}
-      className={`flex max-h-max flex-wrap items-center my-10 py-8 px-2 md:px-8 ${
-        bg &&
+      className={`flex max-h-max flex-wrap items-center my-10 py-8 px-2 md:px-8 ${bg &&
         "bg-gradient-to-b from-basicBackground via-middleColor to-basicBackground from-0% via-50% to-100%"
-      }`}
+        }`}
     >
       <div className="basis-7/12 md:basis-6/12 flex-grow px-2 md:pl-5 md:pr-10 mb-7 ">
         <h5 className="text-2xl min-w-max md:text-4xl text-primary/90">
@@ -49,25 +48,28 @@ function ProjectItem({
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className={`px-3 py-1 text-[12px] font-bold rounded-full ${
-                bg
+              className={`px-3 py-1 text-[12px] font-bold rounded-full ${bg
                   ? "bg-basicBackground/90 text-primary/80"
                   : "bg-primary/70 text-basicBackground"
-              }`}
+                }`}
             >
               {tech}
             </span>
           ))}
         </div>
         <div className="pt-6 flex gap-2">
-          <Link
-            href={repo}
-            target="_blank"
-            className="flex gap-2 items-center shadow bg-white px-2 py-1 rounded-xl"
-          >
-            <img src="/icons/github.svg" alt="github" width={25} height={25} />
-            <p className="font-semibold">Repo</p>
-          </Link>
+          {
+            repo && (
+              <Link
+                href={repo}
+                target="_blank"
+                className="flex gap-2 items-center shadow bg-white px-2 py-1 rounded-xl"
+              >
+                <img src="/icons/github.svg" alt="github" width={25} height={25} />
+                <p className="font-semibold">Repo</p>
+              </Link>
+            )
+          }
           {demo && (
             <Link
               href={demo}
