@@ -10,7 +10,7 @@ interface Props {
   subtitle: string;
   description: string;
   image: string;
-  repo: string;
+  repo?: string;
   demo?: string;
   bg: boolean;
   technologies: string[];
@@ -49,8 +49,8 @@ function ProjectItem({
             <span
               key={index}
               className={`px-3 py-1 text-[12px] font-bold rounded-full ${bg
-                  ? "bg-basicBackground/90 text-primary/80"
-                  : "bg-primary/70 text-basicBackground"
+                ? "bg-basicBackground/90 text-primary/80"
+                : "bg-primary/70 text-basicBackground"
                 }`}
             >
               {tech}
@@ -83,7 +83,7 @@ function ProjectItem({
         </div>
       </div>
       <Link
-        href={demo ? demo : repo}
+        href={demo ? demo : repo ? repo : "/projects"}
         target="_blank"
         className="basis-6/12 flex-grow md:h-96 px-2 md:p-5 pb-0"
       >

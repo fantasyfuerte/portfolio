@@ -69,7 +69,6 @@ export const projects = [
       "AuthJS",
     ],
   },
-
   {
     name: "DO-IT-PROJECT",
     subtitle: "Accomplishing Goals",
