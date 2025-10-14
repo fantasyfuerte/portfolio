@@ -90,6 +90,7 @@ function ProjectItem({
         <Image
           alt="imagen del articulo"
           src={image}
+          priority
           className={`object-cover w-full h-full rounded-xl shadow-lg shadow-primary/55`}
           width={720}
           height={360}
